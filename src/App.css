@@ -1,0 +1,23 @@
+/* Tùy chỉnh nhẹ giao diện đảm bảo tính nhất quán với template Bootstrap */
+
+body {
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+}
+
+.navbar-nav .nav-link.btn-link {
+  text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item {
+  cursor: pointer;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Tiến độ mượn thiết bị */
+.progress {
+  height: 8px;
+}
